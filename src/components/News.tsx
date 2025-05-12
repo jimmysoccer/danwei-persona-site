@@ -23,9 +23,10 @@ const News = () => {
   ];
 
   return (
-    <section id='news' className='py-12 bg-gray-50 m-12'>
-      <div className='container max-w-2xl mx-auto px-4 md:px-6'>
-        <h2 className='text-2xl font-bold mb-6'>News</h2>
+    <section id='news' className='py-12'>
+      <div className='container max-w-2xl mx-2'>
+        <h2 className='text-2xl font-bold'>News</h2>
+        <div className='mb-6 h-1 bg-blue-500'></div>
         <div className='space-y-4'>
           {newsItems.map((item, index) => (
             <div key={index} className='flex'>

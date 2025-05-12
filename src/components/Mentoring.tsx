@@ -17,9 +17,10 @@ const Mentoring = () => {
   ];
 
   return (
-    <section id='mentoring' className='py-12 bg-gray-50 m-12'>
-      <div className='container max-w-2xl mx-auto px-4 md:px-6'>
-        <h2 className='text-2xl font-bold mb-6'>Mentoring</h2>
+    <section id='mentoring' className='py-12'>
+      <div className='container max-w-2xl mx-2'>
+        <h2 className='text-2xl font-bold'>Mentoring</h2>
+        <div className='mb-6 h-1 bg-blue-500'></div>
         <div className='space-y-6'>
           {mentoringExperience.map((exp, index) => (
             <div key={index} className='border-l-2 border-gray-300 pl-4'>

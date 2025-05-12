@@ -2,9 +2,10 @@ import { Github, Linkedin } from 'lucide-react';
 
 const Contact = () => {
   return (
-    <section id='contact' className='py-12 bg-gray-50'>
+    <section id='contact' className='py-12'>
       <div className='container w-full mx-auto px-4 md:px-6 text-center'>
-        <h2 className='text-2xl font-bold mb-6'>Contact</h2>
+        <h2 className='text-2xl font-bold'>Contact</h2>
+        <div className='mb-6 h-1 bg-blue-500'></div>
         <div className='flex flex-col items-center space-y-4'>
           <a
             href='mailto:shan.chen@example.edu'

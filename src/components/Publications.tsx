@@ -30,8 +30,9 @@ const Publications = () => {
 
   return (
     <section id='publications' className='py-12'>
-      <div className='container max-w-2xl mx-auto px-4 md:px-6'>
-        <h2 className='text-2xl font-bold mb-6'>Selected Publications</h2>
+      <div className='container max-w-2xl mx-2'>
+        <h2 className='text-2xl font-bold'>Selected Publications</h2>
+        <div className='mb-6 h-1 bg-blue-500'></div>
         <ul className='space-y-6'>
           {publications.map((pub, index) => (
             <div className='bg-white shadow-md rounded-lg p-4'>
