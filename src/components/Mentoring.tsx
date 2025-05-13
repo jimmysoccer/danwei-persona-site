@@ -2,7 +2,8 @@ const Mentoring = () => {
   const mentoringExperience = [
     {
       role: 'Teaching Assistant',
-      program: 'Bruce Weir Summer Institute in Statistical Genetics (SISG) 2024, Georgia Tech',
+      program:
+        'Bruce Weir Summer Institute in Statistical Genetics (SISG) 2024, Georgia Tech',
       period: '2024',
       description:
         'Served as a teaching assistant for SISG Module 5 “Bayesian Statistics”',
@@ -18,7 +19,7 @@ const Mentoring = () => {
 
   return (
     <section id='mentoring' className='py-12'>
-      <div className='container max-w-2xl mx-2'>
+      <div className='container max-w-2xl'>
         <h2 className='text-2xl font-bold'>Mentoring</h2>
         <div className='mb-6 h-1 bg-blue-500'></div>
         <div className='space-y-6'>

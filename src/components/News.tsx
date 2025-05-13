@@ -24,7 +24,7 @@ const News = () => {
 
   return (
     <section id='news' className='py-12'>
-      <div className='container max-w-2xl mx-2'>
+      <div className='container max-w-2xl'>
         <h2 className='text-2xl font-bold'>News</h2>
         <div className='mb-6 h-1 bg-blue-500'></div>
         <div className='space-y-4'>

@@ -7,7 +7,8 @@ const Honors = () => {
     },
     {
       title: 'Johns Hopkins Masters Tuition Scholarship Award',
-      organization: 'Johns Hopkins University Bloomberg School of Public Health',
+      organization:
+        'Johns Hopkins University Bloomberg School of Public Health',
       year: '2021-2023',
     },
     {
@@ -19,7 +20,7 @@ const Honors = () => {
 
   return (
     <section id='honors' className='py-12'>
-      <div className='container max-w-2xl mx-2'>
+      <div className='container max-w-2xl'>
         <h2 className='text-2xl font-bold'>Honors & Awards</h2>
         <div className='mb-6 h-1 bg-blue-500'></div>
         <ul className='space-y-4'>

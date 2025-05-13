@@ -1,19 +1,18 @@
 const Publications = () => {
   const publications = [
-
     {
       title:
         'Hospitalization Burden Among Children With Leukemia and Lymphoma by Treatment Type in the United States',
       conference: 'Submitted to Jama Oncology',
       description:
-        'Hospitalization burden among children with leukemia and lymphoma by treatment type in the United States from HCUP dataset.'},
+        'Hospitalization burden among children with leukemia and lymphoma by treatment type in the United States from HCUP dataset.',
+    },
 
     {
       title: 'A PheWAS in a GWAS with application to the UK Biobank',
       conference: '2024 High Performance Bioinformatics and Biomedicine (HiBB)',
       description:
         'A new way to encode genetic variants into phenotype based space.',
-  
     },
     {
       title:
@@ -21,24 +20,21 @@ const Publications = () => {
       conference: 'BMC Public Health',
       description:
         'A time series analysis on COVID-19 impact on HIV care, evaluating how national lockdown policies affected HIV testing and treatment for key populations in South Africa.',
-       link:
-      'https://link.springer.com/article/10.1186/s12889-024-19679-0',
+      link: 'https://link.springer.com/article/10.1186/s12889-024-19679-0',
     },
     {
-      title:'Impact of chronic obstructive pulmonary disease on immune checkpoint inhibitor efficacy in advanced lung cancer and the potential prognostic factors',
+      title:
+        'Impact of chronic obstructive pulmonary disease on immune checkpoint inhibitor efficacy in advanced lung cancer and the potential prognostic factors',
       conference: 'Translational Lung Cancer Research',
       description:
         'impact of COPD on the clinical outcomes of lung cancer patients treated with immunotherapy and investigate the potential prognostic factors.',
-       link: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC8182718/',
+      link: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC8182718/',
     },
-    
-    
-
   ];
 
   return (
     <section id='publications' className='py-12'>
-      <div className='container max-w-2xl mx-2'>
+      <div className='container max-w-2xl'>
         <h2 className='text-2xl font-bold'>Selected Publications</h2>
         <div className='mb-6 h-1 bg-blue-500'></div>
         <ul className='space-y-6'>
@@ -50,7 +46,7 @@ const Publications = () => {
               </li>
               <div className='ml-6 mt-4 flex space-x-4'>
                 <a
-                  href= {pub?.link}
+                  href={pub?.link}
                   className='px-4 py-2 bg-gray-200 text-blue-500 rounded-lg shadow hover:bg-gray-300 transition duration-200'
                   target='_blank'
                   rel='noopener noreferrer'
