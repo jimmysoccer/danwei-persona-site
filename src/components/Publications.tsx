@@ -1,31 +1,39 @@
 const Publications = () => {
   const publications = [
+
     {
-      title: 'WorldMedQA-V: Multilingual, multimodal medical dataset',
-      conference: 'NAACL 2025',
+      title:
+        'Hospitalization Burden Among Children With Leukemia and Lymphoma by Treatment Type in the United States',
+      conference: 'Submitted to Jama Oncology',
       description:
-        'A comprehensive dataset covering 12 languages and multiple modalities for medical question answering.',
+        'Hospitalization burden among children with leukemia and lymphoma by treatment type in the United States from HCUP dataset.'},
+
+    {
+      title: 'A PheWAS in a GWAS with application to the UK Biobank',
+      conference: '2024 High Performance Bioinformatics and Biomedicine (HiBB)',
+      description:
+        'A new way to encode genetic variants into phenotype based space.',
+  
     },
     {
       title:
-        'Interpretable prediction of adverse drug events using LLM-based approaches',
-      conference: 'Nature Medicine, 2024',
+        'The impact of COVID-19 restrictions on HIV prevention and treatment services for key populations in South Africa: an interrupted time series analysis',
+      conference: 'BMC Public Health',
       description:
-        'Novel methods for explainable AI in predicting medication side effects.',
+        'A time series analysis on COVID-19 impact on HIV care, evaluating how national lockdown policies affected HIV testing and treatment for key populations in South Africa.',
+       link:
+      'https://link.springer.com/article/10.1186/s12889-024-19679-0',
     },
     {
-      title:
-        'Social determinants of health in electronic health records: Analysis using foundation models',
-      conference: 'NPJ Digital Medicine, 2024',
+      title:'Impact of chronic obstructive pulmonary disease on immune checkpoint inhibitor efficacy in advanced lung cancer and the potential prognostic factors',
+      conference: 'Translational Lung Cancer Research',
       description:
-        'Using large language models to extract and analyze social determinants of health from unstructured EHR data.',
+        'impact of COPD on the clinical outcomes of lung cancer patients treated with immunotherapy and investigate the potential prognostic factors.',
+       link: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC8182718/',
     },
-    {
-      title: 'Safety considerations for healthcare LLMs: A systematic review',
-      conference: 'EMNLP 2024',
-      description:
-        'Comprehensive analysis of safety risks in healthcare-specific language models.',
-    },
+    
+    
+
   ];
 
   return (
@@ -42,7 +50,7 @@ const Publications = () => {
               </li>
               <div className='ml-6 mt-4 flex space-x-4'>
                 <a
-                  href='#'
+                  href= {pub?.link}
                   className='px-4 py-2 bg-gray-200 text-blue-500 rounded-lg shadow hover:bg-gray-300 transition duration-200'
                   target='_blank'
                   rel='noopener noreferrer'

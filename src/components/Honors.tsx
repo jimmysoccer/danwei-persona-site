@@ -1,24 +1,19 @@
 const Honors = () => {
   const honors = [
     {
-      title: 'Excellence in AI Research Grant',
-      organization: 'National Science Foundation',
-      year: '2024',
+      title: 'Women In Nature Science Fellowship',
+      organization: 'Emory University',
+      year: '2023-2028',
     },
     {
-      title: 'Outstanding Paper Award',
-      organization: 'Medical Natural Language Processing Workshop, NAACL',
-      year: '2024',
+      title: 'Johns Hopkins Masters Tuition Scholarship Award',
+      organization: 'Johns Hopkins University Bloomberg School of Public Health',
+      year: '2021-2023',
     },
     {
-      title: 'Harvard-MGB AIM Fellowship',
-      organization: 'Harvard Medical School',
-      year: '2023-2025',
-    },
-    {
-      title: 'Young Investigator Award',
-      organization: 'International Conference on Medical Image Computing',
-      year: '2023',
+      title: 'Syngenta Agricultural Scholarship',
+      organization: 'Syngenta Company',
+      year: '2020',
     },
   ];
 

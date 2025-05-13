@@ -1,18 +1,18 @@
 const Mentoring = () => {
   const mentoringExperience = [
     {
-      role: 'Graduate Student Mentor',
-      program: 'Harvard Medical School Research Program',
-      period: '2023 - Present',
-      description:
-        'Mentored 4 medical students on research projects related to AI applications in healthcare.',
-    },
-    {
-      role: 'Undergraduate Research Advisor',
-      program: 'Summer Research Program at Maastricht University',
+      role: 'Teaching Assistant',
+      program: 'Bruce Weir Summer Institute in Statistical Genetics (SISG) 2024, Georgia Tech',
       period: '2024',
       description:
-        'Supervised 3 undergraduate students on developing natural language processing tools for medical text analysis.',
+        'Served as a teaching assistant for SISG Module 5 “Bayesian Statistics”',
+    },
+    {
+      role: 'Undergraduate Teaching Instructor',
+      program: 'Emory QTM100 Lab',
+      period: '2024-2025',
+      description:
+        'Teaching Instuctor for QTM100 lab, an introductory course in Quantitative Theory and Methods at Emory University. Responsibilities include creating homework, teaching lab manuual, grading assignments, and providing support to students.',
     },
   ];
 
