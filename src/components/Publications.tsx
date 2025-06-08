@@ -1,5 +1,13 @@
+
 const Publications = () => {
   const publications = [
+    {
+      title:
+        'Modeling Disease Risk from Genetic Variants Using Language Embeddings',
+      conference: 'Intelligent Systems for Molecular Biology / European Conference on Computational Biology (ISMB/ECCB 2025), Liverpool, United Kingdom',
+      description:
+        'A novel approach to modeling disease risk from genetic variants using language embeddings (abstract; accepted).',
+    },
     {
       title:
         'Hospitalization Burden Among Children With Leukemia and Lymphoma by Treatment Type in the United States',
