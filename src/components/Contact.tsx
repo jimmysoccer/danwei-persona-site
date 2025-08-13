@@ -32,6 +32,15 @@ const Contact = () => {
             >
               <Linkedin size={24} />
             </a>
+            <a
+              href='https://scholar.google.com/citations?user=u4ED2YMAAAAJ&hl=en'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='text-gray-700 hover:text-gray-900 transition-colors p-2'
+              aria-label='Google Scholar'
+            >
+              <span className='text-sm font-semibold'>Scholar</span>
+            </a>
           </div>
         </div>
       </div>

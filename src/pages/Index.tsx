@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import About from '../components/About';
 import News from '../components/News';
 import Publications from '../components/Publications';
+import PersonalProjects from '../components/PersonalProjects';
 import Mentoring from '../components/Mentoring';
 import Honors from '../components/Honors';
 import Contact from '../components/Contact';
@@ -27,6 +28,7 @@ const Index = () => {
           <div className='lg:max-w-[750px] mt-16 p-4 space-y-8 w-full'>
             <About />
             <Publications />
+            <PersonalProjects />
             <Mentoring />
             <Honors />
           </div>

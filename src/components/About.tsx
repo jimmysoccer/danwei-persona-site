@@ -4,7 +4,7 @@ const About = () => {
       <div className='container max-w-2xl'>
         <div className='text-sm text-foreground leading-relaxed space-y-4'>
           <p>
-            I'm currently a second-year Ph.D. student in Computer Science at
+            Hi, I'm currently a second-year Ph.D. student in Computer Science at
             Emory University, under Dr. Steve Qin. I also serve as a Health
             Services Research Intern at the American Cancer Society, where I am
             directly supervised by Dr. Jason Zheng and Dr. Robin Yabroff.
@@ -31,7 +31,7 @@ const About = () => {
           <p>
             Outside of research, I spend most of my free time climbing
             (bouldering is my therapy), running, and occasionally smashing
-            birdies on the badminton court. I’m always chasing the next dyno or
+            birdies on the badminton court. I also love streetphotography. I’m always chasing the next dyno or
             techy slab—and just like in research, I love a good challenge that
             makes me sweat a little.
           </p>
