@@ -1,13 +1,4 @@
-const Footer = () => {
-  return (
-    <footer className='py-8'>
-      <div className='container max-w-2xl mx-auto px-4 md:px-6 text-center'>
-        <p className='text-sm text-gray-500'>
-          © {new Date().getFullYear()} Danwei Yao. Last updated May 2025.
-        </p>
-      </div>
-    </footer>
-  );
-};
-
-export default Footer;
+import { Link } from 'react-router-dom';
+export default function Footer() {
+  return <footer className="site-footer"><span>© {new Date().getFullYear()} Danwei Yao</span><span>Science, with curiosity. Life, with attention.</span><Link to="/photography">Here, again. ↗</Link></footer>;
+}
