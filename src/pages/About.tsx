@@ -62,11 +62,13 @@ export default function About() {
           alt="Danwei Yao"
         />
         <div className="about-copy">
-          <p>I am a <strong>fourth-year PhD student in Computer Science and Biomedical Informatics at Emory University</strong>, advised by <a href="https://encore-group.emory.edu/people/danwei-yao/">Zhaohui “Steve” Qin</a>. Alongside my PhD, I work as a data scientist at <a href="https://www.gene.com/">Genentech</a>, developing AI agents and automation tools for scientific workflows in Translational Safety.</p>
+          <p>I am a <strong>fourth-year PhD student in Computer Science and Biomedical Informatics at Emory University</strong>. Alongside my PhD, I work as a data scientist at <a href="https://www.gene.com/">Genentech</a>, developing AI agents and automation tools for scientific workflows in Translational Safety.</p>
 
           <p>My research focuses on <strong>AI foundation models for human genetics</strong>, particularly representation-learning approaches for disease-risk prediction. More broadly, I am interested in foundation models for life science, multimodal health data, and agentic AI systems that help scientists search, reason over, and act on complex information.</p>
 
-          <p>My path to this work began in horticultural science and bioinformatics, followed by epidemiology at the <a href="https://publichealth.jhu.edu/">Johns Hopkins Bloomberg School of Public Health</a>. Those experiences drew me toward computational biology and eventually to Emory, where I now combine genetics, machine learning, and population health. Outside research, I enjoy photography, painting, climbing, and journaling.</p>
+          <p>My background spans machine learning, epidemiology, statistical genetics, and computational biology. I am advised by <a href="https://encore-group.emory.edu/people/danwei-yao/">Zhaohui “Steve” Qin</a> at Emory.</p>
+
+          <p>Outside work, I like making room for the small things in life. <strong><a href="/photography">Photography</a> and journaling</strong> are the practices I return to most, and I am usually carrying a camera when I travel. I also spend a lot of time <strong>climbing</strong>—mostly bouldering and lead climbing these days—paint occasionally, make handmade cards for friends, and read whenever I get the chance. I especially enjoy <strong>Vladimir Nabokov</strong> and <strong>Haruki Murakami</strong>.</p>
         </div>
       </section>
 
