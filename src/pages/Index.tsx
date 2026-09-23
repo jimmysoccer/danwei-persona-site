@@ -61,7 +61,7 @@ export default function Index() {
           <div className="minimal-copy">
             <p>I work on <strong>AI foundation models for life science</strong>. My current research focuses on representation learning for human genetics, with the goal of building accurate and generalizable models for disease-risk prediction.</p>
             <p>I am also interested in <strong>agentic tools and applications for scientific work</strong>: systems that help researchers find, understand, and act on complex biological data. At Genentech, I develop AI agents for scientific data workflows in Translational Safety.</p>
-            <p>My background spans machine learning, epidemiology, statistical genetics, and computational biology. I am advised by <a href="https://encore-group.emory.edu/people/danwei-yao/">Zhaohui “Steve” Qin</a> at Emory.</p>
+            <p>My background spans machine learning, epidemiology, statistical genetics, and computational biology. I am advised by <a href="https://scholar.google.com/citations?user=9F-Jk74AAAAJ&amp;hl=en">Zhaohui “Steve” Qin</a> at Emory.</p>
           </div>
           <div className="minimal-links">
             <a href="/about">About me</a>

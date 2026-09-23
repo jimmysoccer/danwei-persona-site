@@ -66,7 +66,7 @@ export default function About() {
 
           <p>My research focuses on <strong>AI foundation models for human genetics</strong>, particularly representation-learning approaches for disease-risk prediction. More broadly, I am interested in foundation models for life science, multimodal health data, and agentic AI systems that help scientists search, reason over, and act on complex information.</p>
 
-          <p>My background spans machine learning, epidemiology, statistical genetics, and computational biology. I am advised by <a href="https://encore-group.emory.edu/people/danwei-yao/">Zhaohui “Steve” Qin</a> at Emory.</p>
+          <p>My background spans machine learning, epidemiology, statistical genetics, and computational biology. I am advised by <a href="https://scholar.google.com/citations?user=9F-Jk74AAAAJ&amp;hl=en">Zhaohui “Steve” Qin</a> at Emory.</p>
 
           <p>Outside work, I like making room for the small things in life. <strong><a href="/photography">Photography</a> and journaling</strong> are the practices I return to most, and I am usually carrying a camera when I travel. I also spend a lot of time <strong>climbing</strong>—mostly bouldering and lead climbing these days—paint occasionally, make handmade cards for friends, and read whenever I get the chance. I especially enjoy <strong>Vladimir Nabokov</strong> and <strong>Haruki Murakami</strong>.</p>
         </div>
