@@ -7,7 +7,7 @@ const work = [
   {
     label: { en: 'Research', zh: '研究项目' },
     title: 'Contrastive Language–Genotype Pre-training',
-    description: { en: 'A cross-modal framework that aligns longitudinal diagnoses and polygenic profiles for generalizable disease-risk prediction.', zh: '一个对齐纵向诊断记录与多基因特征的跨模态框架，用于构建可泛化的疾病风险预测模型。' },
+    description: { en: 'A cross-modal framework that aligns longitudinal EHR phenotypes with genomic variation for generalizable disease-risk prediction.', zh: '一个对齐纵向电子健康记录表型与基因组变异的跨模态框架，用于构建可泛化的疾病风险预测模型。' },
   },
   {
     label: { en: 'Preprint · 2025', zh: '预印本 · 2025' },
@@ -63,13 +63,15 @@ export default function Index() {
           <p className="minimal-role">{zh ? '埃默里大学计算机科学与生物医学信息学博士四年级' : <>Fourth-year Ph.D. student in Computer Science & Biomedical Informatics<br />Emory University</>}</p>
           <div className="minimal-copy">
             {zh ? <>
-              <p>我的研究聚焦于<strong>生命科学基础模型</strong>。目前主要探索人类遗传学的表征学习，目标是构建准确且具有泛化能力的疾病风险预测模型。</p>
-              <p>我也关注<strong>面向科学研究的智能体工具与应用</strong>：帮助研究人员发现、理解并使用复杂生物数据的 AI 系统。在 Genentech，我为转化安全研究开发科研数据工作流智能体。</p>
-              <p>我的背景涵盖机器学习、流行病学、统计遗传学和计算生物学。目前在埃默里大学师从 <a href="https://scholar.google.com/citations?user=9F-Jk74AAAAJ&amp;hl=en">Zhaohui “Steve” Qin</a> 教授。</p>
+              <p>我的工作位于<strong>机器学习、人类遗传学与生物医学人工智能</strong>的交叉领域，专注于构建理解人类疾病的基础模型与 AI 系统。</p>
+              <p>我的主要研究方向是<strong>面向人类遗传学的多模态基础模型</strong>。我开发跨模态表征学习方法，将基因组变异与纵向电子健康记录（EHR）及其他健康数据模态相连接，从而学习能够刻画遗传变异、临床轨迹与疾病表型之间关系的表征。最终，我希望这些模型能够跨疾病、跨人群泛化，并推动疾病机制理解、风险预测与精准医学。</p>
+              <p>我也关注<strong>面向遗传学与基因组学的智能体 AI</strong>：能够对复杂生物数据进行推理、调用科研工具，并贯穿科研工作流支持研究人员的 AI 系统。在 Genentech，我为转化安全领域的临床前科研应用开发 AI 智能体及其基础设施，包括可靠的任务编排、评估，以及与科研数据和工具交互的系统。</p>
+              <p>我在埃默里大学师从 <a href="https://scholar.google.com/citations?user=9F-Jk74AAAAJ&amp;hl=en">Zhaohui “Steve” Qin</a> 教授。我的研究背景还涵盖统计遗传学、流行病学与计算生物学。我也与 <a href="https://en.wikipedia.org/wiki/Victor_Corces">Victor Corces 教授</a>合作，开展<strong>面向表观遗传数据的机器学习</strong>研究，利用 ATAC-seq 及相关基因组信号进行神经系统疾病的早期预测。</p>
             </> : <>
-              <p>I work on <strong>AI foundation models for life science</strong>. My current research focuses on representation learning for human genetics, with the goal of building accurate and generalizable models for disease-risk prediction.</p>
-              <p>I am also interested in <strong>agentic tools and applications for scientific work</strong>: systems that help researchers find, understand, and act on complex biological data. At Genentech, I develop AI agents for scientific data workflows in Translational Safety.</p>
-              <p>My background spans machine learning, epidemiology, statistical genetics, and computational biology. I am advised by <a href="https://scholar.google.com/citations?user=9F-Jk74AAAAJ&amp;hl=en">Zhaohui “Steve” Qin</a> at Emory.</p>
+              <p>I work at the intersection of <strong>machine learning, human genetics, and biomedical AI</strong>, with a focus on building foundation models and AI systems for understanding human disease.</p>
+              <p>My primary research explores <strong>multimodal foundation models for human genetics</strong>. I develop cross-modal representation learning approaches that connect genomic variation with longitudinal electronic health records (EHRs) and other health modalities, with the goal of learning representations that capture relationships among inherited genetic variation, clinical trajectories, and disease phenotypes. Ultimately, I am interested in models that generalize across diseases and populations and improve disease understanding, risk prediction, and precision medicine.</p>
+              <p>I am also interested in <strong>agentic AI for genetics and genomics</strong>—AI systems that can reason over complex biological data, interact with scientific tools, and support researchers throughout scientific workflows. At Genentech, I develop AI agents and supporting infrastructure for preclinical scientific applications in Translational Safety, including systems for reliable orchestration, evaluation, and interaction with scientific data and tools.</p>
+              <p>I am a PhD researcher advised by <a href="https://scholar.google.com/citations?user=9F-Jk74AAAAJ&amp;hl=en">Zhaohui “Steve” Qin</a> at Emory University. My broader research spans machine learning, statistical genetics, epidemiology, and computational biology. I also collaborate with <a href="https://en.wikipedia.org/wiki/Victor_Corces">Prof. Victor Corces</a> on <strong>machine learning for epigenetic data</strong>, using ATAC-seq and related genomic signals for the early prediction of neurological disorders.</p>
             </>}
           </div>
           <div className="minimal-links">
@@ -85,9 +87,9 @@ export default function Index() {
       <section className="minimal-section" id="research">
         <h2>{zh ? '研究方向' : 'Research interests'}</h2>
         <div className="interest-list">
-          <p><span>01</span> {zh ? '面向人类遗传学与基因组学的基础模型' : 'Foundation models for human genetics and genomics'}</p>
-          <p><span>02</span> {zh ? '基因型—表型表征学习与疾病风险预测' : 'Genotype–phenotype representation learning and disease-risk prediction'}</p>
-          <p><span>03</span> {zh ? '服务于科学发现的 AI 智能体与工具' : 'AI agents and tools for scientific discovery'}</p>
+          <p><span>01</span> {zh ? '人类遗传学多模态基础模型：对齐基因组变异与临床轨迹，提升疾病理解与预测' : 'Multimodal foundation models for human genetics, aligning genomic variation with clinical trajectories to improve disease understanding and prediction'}</p>
+          <p><span>02</span> {zh ? '面向遗传学与基因组学的智能体 AI' : 'Agentic AI for genetics and genomics'}</p>
+          <p><span>03</span> {zh ? '面向功能基因组学与神经系统疾病的机器学习' : 'Machine learning for functional genomics and neurological disorders'}</p>
         </div>
       </section>
 
@@ -108,7 +110,7 @@ export default function Index() {
       <section className="minimal-section experience-note" id="experience">
         <h2>{zh ? '经历' : 'Experience'}</h2>
         <div className="experience-list">
-          {experience.map(item => <article key={`${item.company}-${item.role}`}>
+          {experience.map(item => <article key={`${item.company}-${item.role.en}`}>
             <div className="experience-heading">
               <h3>{item.company}</h3>
               <span>{item.date[language]}</span>
