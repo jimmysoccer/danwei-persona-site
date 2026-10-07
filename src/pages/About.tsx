@@ -66,14 +66,14 @@ export default function About() {
         />
         <div className="about-copy">
           {zh ? <>
-            <p>我是<strong>埃默里大学计算机科学与生物医学信息学博士四年级学生</strong>。攻读博士期间，我也在 <a href="https://www.gene.com/">Genentech</a> 担任数据科学家，为转化安全领域的科研流程开发 AI 智能体与自动化工具。</p>
-            <p>我的研究聚焦于<strong>人类遗传学 AI 基础模型</strong>，尤其关注面向疾病风险预测的表征学习方法。更广泛地说，我对生命科学基础模型、多模态健康数据，以及能够帮助科学家检索、推理和使用复杂信息的智能体 AI 系统感兴趣。</p>
-            <p>我的背景涵盖机器学习、流行病学、统计遗传学和计算生物学。目前在埃默里大学师从 <a href="https://scholar.google.com/citations?user=9F-Jk74AAAAJ&amp;hl=en">Zhaohui “Steve” Qin</a> 教授。</p>
+            <p>我的工作位于<strong>机器学习、人类遗传学与生物医学人工智能</strong>的交叉领域。我的研究聚焦于<strong>面向人类遗传学的多模态基础模型</strong>，开发跨模态表征学习方法，将基因组变异与纵向电子健康记录及其他健康数据相整合，用于建模疾病轨迹并提升风险预测。</p>
+            <p>我也关注<strong>面向遗传学与基因组学的智能体 AI</strong>，构建能够对生物数据进行推理并与科研工具交互的 AI 系统。在 <a href="https://en.wikipedia.org/wiki/Genentech"><strong>Genentech</strong></a>，我为转化安全领域的临床前科研工作流开发 AI 智能体及其基础设施。</p>
+            <p>我是在埃默里大学师从 <a href="https://scholar.google.com/citations?user=9F-Jk74AAAAJ&amp;hl=en">Zhaohui “Steve” Qin</a> 教授的博士研究人员。我的研究背景还涵盖机器学习、统计遗传学、流行病学与计算生物学。我也与 <a href="https://en.wikipedia.org/wiki/Victor_Corces">Victor Corces 教授</a>合作，开展<strong>面向表观遗传数据的机器学习</strong>研究，利用 ATAC-seq 及相关基因组信号进行神经系统疾病的早期预测。</p>
             <p>工作之外，我喜欢为生活里的小事留出空间。<strong><a href="/photography">摄影</a>和写日记</strong>是我最常回到的两件事，旅行时通常也会随身带着相机。我也花很多时间<strong>攀岩</strong>，最近主要抱石和先锋攀；偶尔画画、为朋友制作手工卡片，也会一有空就读书。我尤其喜欢 <strong>Vladimir Nabokov</strong> 和 <strong>Haruki Murakami</strong>。</p>
           </> : <>
-            <p>I am a <strong>fourth-year PhD student in Computer Science and Biomedical Informatics at Emory University</strong>. Alongside my PhD, I work as a data scientist at <a href="https://www.gene.com/">Genentech</a>, developing AI agents and automation tools for scientific workflows in Translational Safety.</p>
-            <p>My research focuses on <strong>AI foundation models for human genetics</strong>, particularly representation-learning approaches for disease-risk prediction. More broadly, I am interested in foundation models for life science, multimodal health data, and agentic AI systems that help scientists search, reason over, and act on complex information.</p>
-            <p>My background spans machine learning, epidemiology, statistical genetics, and computational biology. I am advised by <a href="https://scholar.google.com/citations?user=9F-Jk74AAAAJ&amp;hl=en">Zhaohui “Steve” Qin</a> at Emory.</p>
+            <p>I work at the intersection of <strong>machine learning, human genetics, and biomedical AI</strong>. My research focuses on <strong>multimodal foundation models for human genetics</strong>, developing cross-modal representation learning methods that integrate genomic variation with longitudinal EHRs and other health data to model disease trajectories and improve risk prediction.</p>
+            <p>I am also interested in <strong>agentic AI for genetics and genomics</strong>—building AI systems that reason over biological data and interact with scientific tools. At <a href="https://en.wikipedia.org/wiki/Genentech"><strong>Genentech</strong></a>, I develop AI agents and supporting infrastructure for preclinical scientific workflows in Translational Safety.</p>
+            <p>I am a PhD researcher advised by <a href="https://scholar.google.com/citations?user=9F-Jk74AAAAJ&amp;hl=en">Zhaohui “Steve” Qin</a> at Emory University. My broader research spans machine learning, statistical genetics, epidemiology, and computational biology. I also collaborate with <a href="https://en.wikipedia.org/wiki/Victor_Corces">Prof. Victor Corces</a> on <strong>machine learning for epigenetic data</strong>, using ATAC-seq and related genomic signals for the early prediction of neurological disorders.</p>
             <p>Outside work, I like making room for the small things in life. <strong><a href="/photography">Photography</a> and journaling</strong> are the practices I return to most, and I am usually carrying a camera when I travel. I also spend a lot of time <strong>climbing</strong>—mostly bouldering and lead climbing these days—paint occasionally, make handmade cards for friends, and read whenever I get the chance. I especially enjoy <strong>Vladimir Nabokov</strong> and <strong>Haruki Murakami</strong>.</p>
           </>}
         </div>
@@ -82,7 +82,7 @@ export default function About() {
       <section className="about-list-section">
         <h2>{zh ? '行业经历' : 'Industry experience'}</h2>
         <div className="about-experience-list">
-          {experience.map(item => <article key={`${item.company}-${item.role}`}>
+          {experience.map(item => <article key={`${item.company}-${item.role.en}`}>
             <div>
               <h3>{item.company}</h3>
               <span>{item.date[language]}</span>
